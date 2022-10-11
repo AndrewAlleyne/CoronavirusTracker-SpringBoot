@@ -11,7 +11,7 @@ Project is created with:
 * SpringBoot 2.7.4
 
 ## External Data
-* [https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv](Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE)
+[https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv](Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE)
 
 ## Setup
 
