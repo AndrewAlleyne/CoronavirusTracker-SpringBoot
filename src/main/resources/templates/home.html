@@ -30,8 +30,8 @@
             <tr th:each="locationStat : ${locationStats}">
                 <td th:text="${locationStat.country}"></td>
                 <td th:text="${locationStat.state}"></td>
-                <td th:text="${#numbers.formatInteger(locationStat.latestTotalCases,3,'POINT')}">0</td>
-                <td th:text="${locationStat.caseDiff}"></td>
+                <td th:text="${#numbers.formatInteger(locationStat.latestTotalCases,3,'COMMA')}">0</td>
+                <td th:text="${#numbers.formatInteger(locationStat.caseDiff,3,'COMMA')== '000'} ? '0' : ${#numbers.formatInteger(locationStat.caseDiff,3,'COMMA')}"></td>
             </tr>
         </table>
     </div>
